@@ -13,7 +13,7 @@ const busStops = [
   [-71.117585, 42.373016],
   [-71.118625, 42.374863],
 ];
-mapboxgl.accessToken = API_KEY;
+mapboxgl.accessToken = ${{API_KEY}};
 
 let map = new mapboxgl.Map({
   container: 'map',
